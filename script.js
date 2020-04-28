@@ -20,7 +20,7 @@ let counter = 0;
 while (true) {
     const randomNumber = Math.floor((Math.random() * 10) + 1);
     if (randomNumber !== 5) {
-        console.log(`randomNumber !== 5`)
+        console.log(`${randomNumber} !== 5`);
         counter++
     } else {
         console.log(`5===5. It took ${counter} interations to randomly generate the number 5.`)
