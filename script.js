@@ -2,7 +2,7 @@ const name = "Kelly";
 const age = 42;
 const birthday = "December 14";
 const detroitGC = true;
-const lifeEvents = ["I grew up in Grosse Ile, Michigan", "I played golf at MSU", "I met my husband 19 years ago", "I'm a mother to two amazing boys"];
+const lifeEvents = ["I grew up in Grosse Ile, Michigan.", "I played golf at Michigan State University.", "I met my husband 19 years ago.", "We have two amazing boys, Michael and Braxton."];
 
 if (detroitGC) {
     console.log(`My name is ${name} and I am a student at Grand Circus in Detroit, Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`);
@@ -18,7 +18,7 @@ for (let i = 0; i < lifeEvents.length; i++) {
 let counter = 0;
 
 while (true) {
-    const randomNumber = Math.floor(Math.random() * 11 + 1);
+    const randomNumber = Math.floor((Math.random() * 10) + 1);
     if (randomNumber !== 5) {
         console.log(`randomNumber !== 5`)
         counter++
